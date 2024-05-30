@@ -12,15 +12,18 @@ Repo for testing ssh keys and github
 - Then run: `cat your_key.pub`
   - This will provide a public key
 <br>
--**If you are setting up a connection with GitHub follow the next steps**:
+
+- **If you are setting up a connection with GitHub follow the next steps**:
   - Go to your repository
   - Settings
   - Deployment Keys
   - Add new Key
   - Type the name of the key
   - Copy and paste the key that you got from the command `cat your_key.pub` described previously
+  - Clik on "allow write" box
 
 <br>
+
 - Now travel to the directory where you want to set up your repository
 - Test that the connection will work with the following commands:
   - `eval ssh-agent`
