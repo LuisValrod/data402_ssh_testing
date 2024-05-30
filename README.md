@@ -7,6 +7,7 @@ Repo for testing ssh keys and github
 - Go to your .ssh directory : `cd .ssh`
   - If you don't have that directory, make it: `mkdir .ssh`
 - Once in the directoy run the following command: `ssh-keygen -t rsa -b 4096 -C "youremail@mailserver.com"`
+  - You'll be asked for the name of the file   
 - It is always advisable to run `ls` so that you can see the name of you ssh key.
 - Then run: `cat your_key.pub`
   - This will provide a public key
