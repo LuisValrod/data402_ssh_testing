@@ -42,3 +42,9 @@ sudo systemctl start mongod
 sudo systemctl status mongod
 
 ```
+### Change config
+You can change config also through running:
+```bash
+sudo vi /etc/mongod.conf
+```
+
